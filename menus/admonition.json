@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    ".CodeMirror": [
+      {
+        "label": "Add Note Admonition",
+        "command": "admonition:add-note"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "Admonition",
+          "submenu": [
+            {
+              "label": "Add Note Admonition",
+              "command": "admonition:add-note"
+            },
+            {
+              "label": "Add Success Admonition",
+              "command": "admonition:add-success"
+            },
+            {
+              "label": "Add Failure Admonition",
+              "command": "admonition:add-fail"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

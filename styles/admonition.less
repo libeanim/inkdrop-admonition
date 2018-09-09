@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'),
+         local('MaterialIcons-Regular'),
+         url('./MaterialIcons-Regular.woff2') format('woff2'),
+         url(https://fonts.gstatic.com/s/materialicons/v41/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  }
+
+.admonition {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12),0 3px 1px -2px rgba(0,0,0,.2);
+    position: relative;
+    margin: 1.5625em 0;
+    padding: 0 1.2rem;
+    border-left: .4rem solid #448aff;
+    border-radius: .2rem;
+    overflow: auto;
+}
+
+.admonition-icon {
+    position: absolute;
+    left: 1.2rem;
+    font-family: "Material Icons";
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.admonition-title {
+    margin: 0 -1.2rem;
+    padding: .8rem 1.2rem .8rem 4rem;
+    border-bottom: .1rem solid rgba(68,138,255,.1);
+    background-color: rgba(68,138,255,.1);
+    font-weight: 700;
+}
+
+.admonition-note {
+    @color: #448aff;
+    @icon: "note";
+    
+    &:extend(.admonition);
+    border-left-color: @color;
+
+    &>.custom-block-body {
+        margin: 1em 0;
+    }
+
+    &>.custom-block-heading {
+        &:extend(.admonition-title);
+        background-color: fade(@color, 10%);
+
+        &:before {
+            &:extend(.admonition-icon);
+            color: @color;
+            content: @icon;
+        }
+    }
+}
+
+.admonition-info {
+    @color: #009688;
+    @icon: "info_outline";
+    
+    &:extend(.admonition);
+    border-left-color: @color;
+
+    &>.custom-block-body {
+        margin: 1em 0;
+    }
+
+    &>.custom-block-heading {
+        &:extend(.admonition-title);
+        background-color: fade(@color, 10%);
+
+        &:before {
+            &:extend(.admonition-icon);
+            color: @color;
+            content: @icon;
+        }
+    }
+}
+
+.admonition-danger {
+    @color: #c2185b;
+    @icon: "error_outline";
+    
+    &:extend(.admonition);
+    border-left-color: @color;
+
+    &>.custom-block-body {
+        margin: 1em 0;
+    }
+
+    &>.custom-block-heading {
+        &:extend(.admonition-title);
+        background-color: fade(@color, 10%);
+
+        &:before {
+            &:extend(.admonition-icon);
+            color: @color;
+            content: @icon;
+        }
+    }
+}
+
+.admonition-warning {
+    @color: #ff9100;
+    @icon: "warning_outline";
+    
+    &:extend(.admonition);
+    border-left-color: @color;
+
+    &>.custom-block-body {
+        margin: 1em 0;
+    }
+
+    &>.custom-block-heading {
+        &:extend(.admonition-title);
+        background-color: fade(@color, 10%);
+
+        &:before {
+            &:extend(.admonition-icon);
+            color: @color;
+            content: @icon;
+        }
+    }
+}
+
+.admonition-success {
+    @color: #00c853;
+    @icon: "check";
+    
+    &:extend(.admonition);
+    border-left-color: @color;
+
+    &>.custom-block-body {
+        margin: 1em 0;
+    }
+
+    &>.custom-block-heading {
+        &:extend(.admonition-title);
+        background-color: fade(@color, 10%);
+
+        &:before {
+            &:extend(.admonition-icon);
+            color: @color;
+            content: @icon;
+        }
+    }
+}
+
+.admonition-fail {
+    @color: #d32f2f;
+    @icon: "clear";
+    
+    &:extend(.admonition);
+    border-left-color: @color;
+
+    &>.custom-block-body {
+        margin: 1em 0;
+    }
+
+    &>.custom-block-heading {
+        &:extend(.admonition-title);
+        background-color: fade(@color, 10%);
+
+        &:before {
+            &:extend(.admonition-icon);
+            color: @color;
+            content: @icon;
+        }
+    }
+}
+
+.admonition-question {
+    @color: #64dd17;
+    @icon: "question_answer";
+    
+    &:extend(.admonition);
+    border-left-color: @color;
+
+    &>.custom-block-body {
+        margin: 1em 0;
+    }
+
+    &>.custom-block-heading {
+        &:extend(.admonition-title);
+        background-color: fade(@color, 10%);
+
+        &:before {
+            &:extend(.admonition-icon);
+            color: @color;
+            content: @icon;
+        }
+    }
+}
+
+.admonition-abstract {
+    @color: #00b0ff;
+    @icon: "short_text";
+    
+    &:extend(.admonition);
+    border-left-color: @color;
+
+    &>.custom-block-body {
+        margin: 1em 0;
+    }
+
+    &>.custom-block-heading {
+        &:extend(.admonition-title);
+        background-color: fade(@color, 10%);
+
+        &:before {
+            &:extend(.admonition-icon);
+            color: @color;
+            content: @icon;
+        }
+    }
+}
+
+.admonition-example {
+    @color: #651fff;
+    @icon: "format_list_numbered";
+    
+    &:extend(.admonition);
+    border-left-color: @color;
+
+    &>.custom-block-body {
+        margin: 1em 0;
+    }
+
+    &>.custom-block-heading {
+        &:extend(.admonition-title);
+        background-color: fade(@color, 10%);
+
+        &:before {
+            &:extend(.admonition-icon);
+            color: @color;
+            content: @icon;
+        }
+    }
+}
+
+.admonition-spoiler {
+    @color: #455a64;
+    
+    &:extend(.admonition);
+    border-left-color: @color;
+
+    &>.custom-block-body {
+        margin: 1em 0;
+    }
+
+    &>.custom-block-heading {
+        &:extend(.admonition-title);
+        padding-left: 1rem;
+        background-color: fade(@color, 10%);
+    }
+}
