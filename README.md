@@ -24,7 +24,7 @@ To create a new `info` admonition with the title "Info" use following syntax:
 | **markdown** content
 ```
 
-![Picture of an info admonition](./assets/info.png)
+![Picture of an info admonition](https://github.com/libeanim/inkdrop-admonition/raw/master/docs/images/info.png)
 
 In order to create a block without a title just leave it out:
 ```
@@ -32,7 +32,7 @@ In order to create a block without a title just leave it out:
 | This is an `info` admonition without a title.
 ```
 
-![Picture of an info admonition without a title](./assets/info-no-title.png)
+![Picture of an info admonition without a title](https://github.com/libeanim/inkdrop-admonition/raw/master/docs/images/info-no-title.png)
 
 ### Spoiler
 
@@ -42,9 +42,9 @@ The `spoiler` admonition is special as it collapsible, doesn't have an icon and 
 | **markdown** content
 ```
 
-![Picture of an open spoiler admonition](./assets/spoiler-open.png)
+![Picture of an open spoiler admonition](https://github.com/libeanim/inkdrop-admonition/raw/master/docs/images/spoiler-open.png)
 
-![Picture of a closed spoiler admonition](./assets/spoiler-closed.png)
+![Picture of a closed spoiler admonition](https://github.com/libeanim/inkdrop-admonition/raw/master/docs/images/spoiler-closed.png)
 
 
 To make a "normal" admontion collapsible just add `-spoiler` to the type e.g. `abstract-spoiler`.
@@ -53,7 +53,7 @@ To make a "normal" admontion collapsible just add `-spoiler` to the type e.g. `a
 [[abstract-spoiler | Abstract]]
 | **markdown** content
 ```
-![Picture of an abstract spoiler admonition](./assets/abstract-spoiler.png)
+![Picture of an abstract spoiler admonition](https://github.com/libeanim/inkdrop-admonition/raw/master/docs/images/abstract-spoiler.png)
 
  _As soon as you make a "normal" admonition collapsible the title becomes mandatory._
 
@@ -76,7 +76,7 @@ You can add any kind of markdown content inside of an adminition, e.g.:
 | | another block
 ```
 
-![Picture of an admonition with markdown content](./assets/complex-content.png)
+![Picture of an admonition with markdown content](https://github.com/libeanim/inkdrop-admonition/raw/master/docs/images/complex-content.png)
 
 ### Keymapping
 
@@ -85,7 +85,7 @@ By default the shortcut <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>a</kbd> will add
 ## Screenshots
 Remaining admonitions:
 
-![Picture of remaining admonitions](./assets/remaining.png)
+![Picture of remaining admonitions](https://github.com/libeanim/inkdrop-admonition/raw/master/docs/images/remaining.png)
 
 ## Roadmap
 
