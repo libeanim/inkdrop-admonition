@@ -1,12 +1,4 @@
 {
-  "context-menu": {
-    ".CodeMirror": [
-      {
-        "label": "Add Note Admonition",
-        "command": "admonition:add-note"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Plugins",
