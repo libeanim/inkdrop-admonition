@@ -1,9 +1,14 @@
 {
   "name": "admonition",
   "main": "./lib/admonition",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An Inkdrop plugin that allows to add block-styled side content to your notes",
-  "keywords": ["inkdrop","plugin","admonition","notes"],
+  "keywords": [
+    "inkdrop",
+    "plugin",
+    "admonition",
+    "notes"
+  ],
   "repository": "https://github.com/libeanim/inkdrop-admonition.git",
   "license": "MIT",
   "engines": {
