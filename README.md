@@ -86,3 +86,9 @@ By default the shortcut <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>a</kbd> will add
 Remaining admonitions:
 
 ![Picture of remaining admonitions](./assets/remaining.png)
+
+## Roadmap
+
+- [ ] Use inkdrop styles
+- [ ] Automatically add `|` after pressing <kbd>Enter</kbd> inside an admonition block.
+- [ ] Properly include icon font.
