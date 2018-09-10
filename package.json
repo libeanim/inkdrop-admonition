@@ -1,7 +1,7 @@
 {
   "name": "admonition",
   "main": "./lib/admonition",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An Inkdrop plugin that allows to add block-styled side content to your notes",
   "keywords": [
     "inkdrop",
