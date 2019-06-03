@@ -12,7 +12,7 @@
   "repository": "https://github.com/libeanim/inkdrop-admonition.git",
   "license": "MIT",
   "engines": {
-    "inkdrop": ">=3.7.3 <4.0.0"
+    "inkdrop": "^4.x"
   },
   "dependencies": {
     "remark-custom-blocks": "^2.2.3"
