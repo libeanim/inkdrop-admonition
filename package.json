@@ -12,9 +12,13 @@
   "repository": "https://github.com/libeanim/inkdrop-admonition.git",
   "license": "MIT",
   "engines": {
-    "inkdrop": ">=3.7.3 <4.0.0"
+    "inkdrop": "^4.x"
   },
   "dependencies": {
     "remark-custom-blocks": "^2.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0"
   }
 }
