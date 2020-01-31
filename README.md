@@ -1,12 +1,12 @@
 # Inkdrop Admonition
 
-An [Inkdrop](https://www.inkdrop.info/) plugin that allows to add block-styled side content to your notes.
+Allows to add block-styled side content to your [Inkdrop](https://www.inkdrop.info/) notes.
 
 ## Motivation
 
 As I mainly write my notes in markdown using Inkdrop, admonitions help me to write a more structured content and collapsible blocks can make my notes easier to read.
 
-_The inspiration for this plugin came from the MkDocs [admonition extension](https://squidfunk.github.io/mkdocs-material/extensions/admonition/)._
+_The inspiration came from the MkDocs [admonition extension](https://squidfunk.github.io/mkdocs-material/extensions/admonition/)._
 
 ## Install
 
